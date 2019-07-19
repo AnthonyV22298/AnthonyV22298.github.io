@@ -3,7 +3,7 @@
 
 document.getElementById('connect')
 	.addEventListener('click', () => {
-		PoweredUp.connect()
+		device.connect()
 			.then(()=> {
 				document.body.classList.add('connected');
 			});
