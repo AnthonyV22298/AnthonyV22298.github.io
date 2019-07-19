@@ -3,7 +3,7 @@
 
 document.getElementById('connect')
 	.addEventListener('click', () => {
-		device.connect()
+		geraldo.connect()
 			.then(()=> {
 				document.body.classList.add('connected');
 			});
