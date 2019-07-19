@@ -1,6 +1,7 @@
 
 /* Connect to device */
 
+
 document.getElementById('connect')
 	.addEventListener('click', () => {
 		PoweredUp.connect()
@@ -14,6 +15,7 @@ document.getElementById('emulate')
 	    emulateState = true;
 		document.body.classList.add('connected');
 	});
+
 
 
 	
